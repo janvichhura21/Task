@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity() {
     private fun onLevelClick() {
         val LevelMap:HashMap<Boolean,String> = hashMapOf(true to "Male" ,false to "Female")
         val level=LevelMap.values.toList()
-        val arraySpicyAdapter  = ArrayAdapter(this, R.layout.dropdown_item, level)
-        binding.edtGender.setAdapter(arraySpicyAdapter)
+        val arrayAdapter  = ArrayAdapter(this, R.layout.dropdown_item, level)
+        binding.edtGender.setAdapter(arrayAdapter)
 
     }
 
