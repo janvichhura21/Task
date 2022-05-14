@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="janvi"
+        android:id="@+id/edtUsername"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="janvi@gmail.com"
+        android:layout_marginTop="4dp"
+        android:id="@+id/edtUserEmail"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="23"
+        android:layout_marginTop="4dp"
+        android:id="@+id/edtUserAge"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7826178261"
+        android:layout_marginTop="4dp"
+        android:id="@+id/edtUserPhoneNumber"/>
+
+
+</LinearLayout>
